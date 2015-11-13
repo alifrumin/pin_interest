@@ -35,23 +35,58 @@ nav a {
   color: white;
 }
 
+nav a:hover {
+  background-color: magenta;
+}
+
 h3 {
   padding: 10px;
+  display: inline;
 }
 
 body {
 font-family: 'PT Sans', sans-serif;
   background: #B7DDE2;
-  /*margin-left: 200px;
-  margin-right: 200px;*/
+  /*margin-left: 100px;
+  margin-right: 100px;*/
   color: #274459;
   /*F1FFC9*/
 }
-
+.container {
+  margin: 30px;
+}
 .pin_photo {
 	width: 400px;
 }
 
 .pin_gallery {
 	width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.pin {
+  height: 250px;
+  width: 200px;
+  background-color: orange;
+  margin: 20px;
+  display: inline-block;
+}
+
+.pin p {
+  padding: 5px;
+}
+
+.button a {
+  text-decoration: none;
+  background-color: yellow;
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  float: right;
+}
+
+.button a:hover {
+  background-color: orange;
 }
